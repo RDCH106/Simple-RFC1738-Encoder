@@ -1,5 +1,5 @@
 # Simple-RFC1738-Encoder
-Simple URL Encoder and Decoder according to RFC 1738
+Simple URL Encoder and Decoder according to [RFC 1738](https://www.ietf.org/rfc/rfc1738.txt)
 
 Try it: [Online Demo](https://rawgit.com/RDCH106/Simple-RFC1738-Encoder/master/demo.html)
 
