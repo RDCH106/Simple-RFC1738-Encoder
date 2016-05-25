@@ -1,6 +1,8 @@
 # Simple-RFC1738-Encoder
 Simple URL Encoder and Decoder according to RFC 1738
 
+Try it: [Online Demo](https://rawgit.com/RDCH106/Simple-RFC1738-Encoder/master/demo.html)
+
 ## Url Encoding Explained
 
 ##### Why do I need URL encoding?
