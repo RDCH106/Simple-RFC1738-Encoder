@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<title>Simple-RFC1738-Encoder by RDCH106</title>
+		<script src="js/SRE_API.js"></script>
+		<script>
+		
+			function convertInput(){
+				
+				var input = document.getElementById("input").value;
+			
+				if(document.getElementById("mode-0").checked == true){
+					document.getElementById("output").value = convertToURL(input);
+				}else{
+					document.getElementById("output").value = convertToString(input);
+				}
+			
+			}
+		
+		</script>
+	</head>
+	<body>
+		
+		<div id="form-corpus">
+			<form class="form-horizontal">
+				<fieldset>
+					
+					<!-- Form Name -->
+					<legend>Simple-RFC1738-Encoder</legend>
+					
+					<!-- Textarea -->
+					<div class="form-group">
+						<label class="col-md-4 control-label" for="input">Input</label>
+						<div class="col-md-4">                     
+							<textarea class="form-control" id="input" name="input"></textarea>
+						</div>
+					</div>
+					
+					<!-- Multiple Radios (inline) -->
+					<div class="form-group">
+						<label class="col-md-4 control-label" for="mode">Mode</label>
+						<div class="col-md-4"> 
+							<label class="radio-inline" for="mode-0">
+								<input type="radio" name="mode" id="mode-0" value="encode" checked="checked">
+								Encode
+							</label> 
+							<label class="radio-inline" for="mode-1">
+								<input type="radio" name="mode" id="mode-1" value="decode">
+								Decode
+							</label>
+						</div>
+					</div>
+					
+					<!-- Button -->
+					<div class="form-group">
+						<label class="col-md-4 control-label" for="convert"></label>
+						<div class="col-md-4">
+							<button type="button" id="convert" name="convert" class="btn btn-primary" onclick="convertInput()">Convert</button>
+						</div>
+					</div>
+					
+					<!-- Textarea -->
+					<div class="form-group">
+						<label class="col-md-4 control-label" for="output">Output</label>
+						<div class="col-md-4">                     
+							<textarea class="form-control" id="output" name="output"></textarea>
+						</div>
+					</div>
+					
+				</fieldset>
+			</form>
+		</div>
+		
+	</body>
+</html>
