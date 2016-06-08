@@ -25,7 +25,7 @@ while (num >= radix)
        num = Math.floor(num / radix);
        hexString += hexVals[temp];
       }
-hexString += hexVals[num];
+hexString += (hexVals[num] + (hexString.length==0?'0':''));
 return reversal(hexString);
 }
 
