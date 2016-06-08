@@ -34,3 +34,7 @@ All offending characters are replaced by a % and a two digit hexadecimal value t
 - = (Equals) becomes %3D
 - ? (Question Mark) becomes %3F
 - @ (Commercial A / At) becomes %40
+
+##### Full ASCII Table
+
+![ASCII Table](img/asciifull.gif "ASCII Table and Description")
