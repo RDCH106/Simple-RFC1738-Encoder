@@ -3,6 +3,8 @@ Simple URL Encoder and Decoder according to [RFC 1738](https://www.ietf.org/rfc/
 
 Try it: [Online Demo](https://rawgit.com/RDCH106/Simple-RFC1738-Encoder/master/demo.html)
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/668cece8833a446e9238438a5913b1d3)](https://www.codacy.com/app/RDCH106/Simple-RFC1738-Encoder?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=RDCH106/Simple-RFC1738-Encoder&amp;utm_campaign=Badge_Grade)
+
 ## Url Encoding Explained
 
 ##### Why do I need URL encoding?
