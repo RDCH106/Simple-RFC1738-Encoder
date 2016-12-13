@@ -16,7 +16,11 @@ function include(file)
 include('js/common.js');
 include('js/encode.js');
 include('js/decode.js');
+include('js/utf8.js');
 
 function convertToURL(str){ return encode(str) };
 function convertToString(url){ return decode (url)};
+
+function convertToURLWithUTF8(str){ return encode(utf8_encode(str)) };
+function convertToStringWithUTF8(url){ return utf8_decode(decode (url))};
 

@@ -12,9 +12,17 @@
 				var input = document.getElementById("input").value;
 			
 				if(document.getElementById("mode-0").checked == true){
-					document.getElementById("output").value = convertToURL(input);
+                    if(document.getElementById("utf8-0").checked == true){
+                        document.getElementById("output").value = convertToURLWithUTF8(input);
+                    }else{
+                        document.getElementById("output").value = convertToURL(input);
+                    }
 				}else{
-					document.getElementById("output").value = convertToString(input);
+                    if(document.getElementById("utf8-0").checked == true){
+                        document.getElementById("output").value = convertToStringWithUTF8(input);
+                    }else{
+                        document.getElementById("output").value = convertToString(input);
+                    }
 				}
 			
 			}
@@ -49,6 +57,21 @@
 							<label class="radio-inline" for="mode-1">
 								<input type="radio" name="mode" id="mode-1" value="decode">
 								Decode
+							</label>
+						</div>
+					</div>
+                    
+                    <!-- Multiple Radios (inline) -->
+					<div class="form-group">
+						<label class="col-md-4 control-label" for="utf8">UTF-8</label>
+						<div class="col-md-4"> 
+							<label class="radio-inline" for="utf8-0">
+								<input type="radio" name="utf8" id="utf8-0" value="on" checked="checked">
+								On
+							</label> 
+							<label class="radio-inline" for="utf8-1">
+								<input type="radio" name="utf8" id="utf8-1" value="off">
+								Off
 							</label>
 						</div>
 					</div>
