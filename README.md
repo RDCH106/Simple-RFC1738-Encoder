@@ -7,7 +7,7 @@ Simple URL Encoder and Decoder according to [RFC 1738](https://www.ietf.org/html
 * [RFC 1738 TXT version](https://www.ietf.org/rfc/rfc1738.txt)
 * [UTF-8 (RFC3629) TXT version](https://www.ietf.org/rfc/rfc3629.txt)
 
-Standar URL encoding steps:
+Standard URL encoding steps:
 
 * Convert the character string into a sequence of bytes using the UTF-8 encoding
 * Convert each byte that is not an ASCII letter or digit to %HH, where HH is the hexadecimal value of the byte
