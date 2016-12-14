@@ -18,7 +18,7 @@ When Simple-RFC1738-Encoder works with UTF-8 enconding is like the function [enc
 
 Try it: [Online Demo](https://rawgit.com/RDCH106/Simple-RFC1738-Encoder/master/demo.html)
 
-## Url Encoding Explained
+## URL Encoding Explained
 
 ##### Why do I need URL encoding?
 The URL specification RFC 1738 specifies that only a small set of characters can be used in a URL. Those characters are:
