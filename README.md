@@ -198,6 +198,10 @@ Codes 32-127 are common for all the different variations of the ASCII table, the
 |126|176|7E|01111110|~|`&#126;`||Equivalency sign - tilde|
 |127|177|7F|01111111||`&#127;`||Delete|
 
+**Note**: You can use *ALT + code_number* keyboard shortcut to print the characters. 
+
+**Example**: *ALT+97* is "*a*" character
+
 #### The extended ASCII codes (character code 128-255)
 There are several different variations of the 8-bit ASCII table. The table below is according to ISO 8859-1, also called ISO Latin-1. Codes 128-159 contain the Microsoft® Windows Latin-1 extended characters.
 
@@ -331,5 +335,9 @@ There are several different variations of the 8-bit ASCII table. The table below
 |253|375|FD|11111101|ý|`&#253;`|`&yacute;`|Latin small letter y with acute|
 |254|376|FE|11111110|þ|`&#254;`|`&thorn;`|Latin small letter thorn|
 |255|377|FF|11111111|ÿ|`&#255;`|`&yuml;`|Latin small letter y with diaeresis|
+
+**Note**: You can use *ALT + 0 + code_number* keyboard shortcut to print the characters. 
+
+**Example**: *ALT+0128* is "*€*" character
 
 Markdown Tables generated with help of [markdownTables online tool](http://markdowntables.mrvautin.com/)
