@@ -18,6 +18,8 @@ When Simple-RFC1738-Encoder works with UTF-8 enconding is like the function [enc
 
 Try it: [Online Demo](https://cdn.rawgit.com/RDCH106/Simple-RFC1738-Encoder/master/demo.html)
 
+Available version for Python using an experimental wrapper: https://github.com/RDCH106/pySRE
+
 ## URL Encoding Explained
 
 ##### Why do I need URL encoding?
