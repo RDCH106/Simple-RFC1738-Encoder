@@ -16,7 +16,7 @@ The term URL encoding is a bit inexact because the encoding procedure is not lim
 
 When Simple-RFC1738-Encoder works with UTF-8 enconding is like the function [encodeURI](http://www.w3schools.com/jsref/jsref_encodeuri.asp) in JavaScript, but it is posible encode using other codifications like [ISO-8859](https://en.wikipedia.org/wiki/ISO/IEC_8859) not forcing UTF-8 enconding, very useful if you work with latin characters.
 
-Try it: [Online Demo](https://cdn.rawgit.com/RDCH106/Simple-RFC1738-Encoder/master/demo.html)
+Try it: [Online Demo](https://raw.githack.com/RDCH106/Simple-RFC1738-Encoder/master/demo.html)
 
 Available version for Python using an experimental wrapper: https://github.com/RDCH106/pySRE
 
