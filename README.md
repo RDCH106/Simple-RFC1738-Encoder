@@ -193,7 +193,7 @@ Codes 32-127 are common for all the different variations of the ASCII table, the
 |121|171|79|01111001|y|`&#121;`||Lowercase y|
 |122|172|7A|01111010|z|`&#122;`||Lowercase z|
 |123|173|7B|01111011|{|`&#123;`||Opening brace|
-|124|174|7C|01111100|`|`|`&#124;`||Vertical bar|
+|124|174|7C|01111100|\||`&#124;`||Vertical bar|
 |125|175|7D|01111101|}|`&#125;`||Closing brace|
 |126|176|7E|01111110|~|`&#126;`||Equivalency sign - tilde|
 |127|177|7F|01111111||`&#127;`||Delete|
